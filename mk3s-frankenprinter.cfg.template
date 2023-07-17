@@ -49,11 +49,12 @@
 #############################################################################################################
 [include klipper-btt-primus/printers/mk3s-franken/steppers.cfg]
 
+
 # UNCOOLED TMC 2130 + LDO-42STH40-1684AC
 # It is recommended that you enable these settings until you have verified that your printer moves as expected
 [include klipper-btt-primus/printers/mk3s-franken/tmc2209.cfg]
 [include klipper-btt-primus/printers/mk3s-franken/speed-limits-basic.cfg]
-[include klipper-btt-primus/steppers/ldo/42sth40-1684ac/2130/24v-0.4a-*.cfg]
+[include klipper-btt-primus/steppers/ldo/42sth40-1684ac/2209/24v-0.4a-*.cfg]
 
 # STEALTH MODE
 # NOTE: You still need to include one of the above stepper motor definitions.
