@@ -133,7 +133,7 @@
 ### FILAMENT SENSOR
 ### Pick your filament sensor configuration
 #############################################################################################################
-[include klipper-btt-primus/sensors/mk3s-franken-filament-switch.cfg]
+[include klipper-btt-primus/sensors/prusa-mk3s-filament-switch.cfg]
 
 
 #############################################################################################################
