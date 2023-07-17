@@ -59,7 +59,7 @@
 # NOTE: You still need to include one of the above stepper motor definitions.
 # NOTE: This will make your printer quiter but less accurate, it's an inherent side effect of stealthchop.
 # NOTE: This will also impact your acceleration and print speed significantly.
-#[include klipper-btt-primus/printers/prusa-mk3s/tmc2130-stealth.cfg]
+#[include klipper-btt-primus/printers/mk3s-franken/tmc2130-stealth.cfg]
 
 
 #############################################################################################################
@@ -76,7 +76,7 @@
 # have clipped DIAG pins). It is strongly encouraged to use physical endstops if you're a beginner.
 # If you still wish to proceed, copy klipper-btt-primus/templates/sensorless-homing.cfg to the root directory and
 # remove the # from the line below.
-[include klipper-btt-primus/printers/prusa-mk3s/sensorless-homing-tmc2209.cfg]
+[include klipper-btt-primus/printers/mk3s-franken/sensorless-homing-tmc2209.cfg]
 [include klipper-btt-primus/homing.cfg]
 
 
@@ -126,14 +126,14 @@
 ### LCD
 ### Pick your LCD configuration
 #############################################################################################################
-[include klipper-btt-primus/printers/prusa-mk3s/display.cfg]
+[include klipper-btt-primus/printers/mk3s-franken/display.cfg]
 
 
 #############################################################################################################
 ### FILAMENT SENSOR
 ### Pick your filament sensor configuration
 #############################################################################################################
-[include klipper-btt-primus/sensors/prusa-mk3s-filament-switch.cfg]
+[include klipper-btt-primus/sensors/mk3s-franken-filament-switch.cfg]
 
 
 #############################################################################################################
